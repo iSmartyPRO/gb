@@ -1,6 +1,7 @@
 # Краткое описание
 Репозиторий (конспекты) по обучению в Geek Brains
 
-## 
+## Содержание
 
-* [programming-intro (введение в программирование)](01-quarter/01-programming-intro/README.md)
+* [Подготовка](00-preparation/README.md)
+* [Первая четверть](01-quarter/README.md)
