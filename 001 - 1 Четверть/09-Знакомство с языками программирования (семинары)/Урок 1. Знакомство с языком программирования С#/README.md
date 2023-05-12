@@ -23,6 +23,15 @@ https://metanit.com/sharp/tutorial/ - справочный сайт по Си ш
 • «C# для школьников»
 • Мартин Дрейер
 
+## Урок
+
+* [Пример разобранный с преподавателем](./examples/example01/)
+* [Задача 1. Работа в группе](./examples/example02/)
+* [Задача 3. Работа в группе](./examples/example03/)
+* [Задача 3. используя конструкцию switch/case](./examples/example04/)
+
+Рекомендация преподавателя [конструкция switch/case](https://metanit.com/sharp/tutorial/3.45.php)
+
 
 ## Домашние задания
 
