@@ -33,5 +33,5 @@ git log --oneline
 
 ## Перемещение между комитами, перемещение указателя HEAD локальной копии репозитория
 ```
-git checkout
+git checkout <branch_name>
 ```
