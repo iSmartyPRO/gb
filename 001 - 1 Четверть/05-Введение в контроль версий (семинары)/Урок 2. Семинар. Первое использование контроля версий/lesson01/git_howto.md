@@ -10,6 +10,11 @@ git init
 git add <filename>
 ```
 
+## Отображение состояния файлов в рабочем каталоге и индексе
+```sh
+git status
+```
+
 git commit -m "Message
 git log
 git log --oneline
