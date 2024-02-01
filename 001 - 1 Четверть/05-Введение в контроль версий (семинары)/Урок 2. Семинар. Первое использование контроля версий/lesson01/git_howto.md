@@ -15,7 +15,12 @@ git add <filename>
 git status
 ```
 
-git commit -m "Message
+## Сохранение слепка во нутренней базе данных с указанием описания, которые были выполнены командой git add
+
+```sh
+git commit -m "Message"
+```
+
 git log
 git log --oneline
 git checkout
