@@ -21,6 +21,10 @@ git status
 git commit -m "Message"
 ```
 
+## Просмотр истории комитов, детальная информация
+```sh
 git log
+```
+
 git log --oneline
 git checkout
