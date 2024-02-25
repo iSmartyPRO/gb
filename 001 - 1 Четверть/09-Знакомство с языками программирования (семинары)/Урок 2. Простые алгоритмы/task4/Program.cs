@@ -11,6 +11,7 @@
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Математическое решение");
 if(number < 100) {
     Console.WriteLine("Третьей цифры нету");
 }
@@ -21,3 +22,12 @@ else
     }
     Console.WriteLine(number % 10);   
 }
+
+
+Console.WriteLine("Строковое решение");
+string numberStr = Convert.ToString(number);
+if (numberStr.Length < 3)
+{
+Console.WriteLine("Третьей цифры нет!!!");
+}
+else Console.WriteLine(numberStr[2]);
