@@ -4,7 +4,8 @@
 // то программа выводит остаток от деления.
 // 
 // Примеры
-// 14, 5 => нет, 4 16, 8 => да
+// 14, 5 => нет, 4 
+// 16, 8 => да
 // 4, 3 => нет, 1
 
 
@@ -13,5 +14,18 @@ int number1 = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 
-if(number1 % number2 == 0) Console.WriteLine($"да");
-    else Console.WriteLine($"нет, {number1 % number2}");
+if(number2 > number1) {
+    int temp = number2;
+    number2 = number1;
+    number1 = temp;
+}
+
+if(number2 == 0) 
+{
+    Console.WriteLine("На наоль делить нельзя");
+} 
+else 
+{
+    if(number1 % number2 == 0) Console.WriteLine($"да");
+        else Console.WriteLine($"нет, {number1 % number2}");
+}
