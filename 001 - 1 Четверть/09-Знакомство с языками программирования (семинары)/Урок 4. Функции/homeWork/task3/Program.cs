@@ -9,7 +9,7 @@ int[] randomArr(int[] arr)
 {
     for(int i = 0; i < arr.Length; i++)
     {
-        arr[i] = new Random().Next(100,1000);
+        arr[i] = new Random().Next(1,100);
     }
     return arr;
 }
