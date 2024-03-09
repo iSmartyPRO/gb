@@ -7,13 +7,13 @@
 // 5 12 16 q [STOP]
 // 3 45 342 15 [STOP]
 
-bool checkVar2Quit(string str) {
-    if(checkInt(str)){
+bool checkVar2Quit(string input) {
+    if(checkInt(input)){
         
         return false;
     }
     else {
-        if(str.Contains('q'))
+        if(input.Contains('q'))
         {
             return true;
         }
@@ -22,21 +22,31 @@ bool checkVar2Quit(string str) {
 
 }
 
-bool checkInt(string str)
+bool checkInt(string input)
 {
-    if(int.TryParse(str, out int value))
+    if(int.TryParse(input, out int value))
     {
-        return true;
+        int sum = 0;
+        while(value > 0)
+        {
+            sum += value % 10;
+            value /= 10;
+        }
+        if(sum % 2 == 0)
+        {
+            return true;
+        }
     }
     return false;
 }
 
 
-
-
-Console.Write("Введите значение: ");
-string str = Console.ReadLine();
-while(!checkVar2Quit(str)) {
+while(true) {
     Console.Write("Введите значение: ");
-    str = Console.ReadLine();
+    string input = Console.ReadLine();
+    if(checkVar2Quit(input) || checkInt(input))
+    {
+        Console.WriteLine("STOP");
+        break;
+    }
 }
