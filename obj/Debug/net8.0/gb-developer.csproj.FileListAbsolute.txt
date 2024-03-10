@@ -1,0 +1,5 @@
+/Users/Ilias.Aidar/gb-developer/obj/Debug/net8.0/gb-developer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Ilias.Aidar/gb-developer/obj/Debug/net8.0/gb-developer.AssemblyInfoInputs.cache
+/Users/Ilias.Aidar/gb-developer/obj/Debug/net8.0/gb-developer.AssemblyInfo.cs
+/Users/Ilias.Aidar/gb-developer/obj/Debug/net8.0/gb-developer.csproj.CoreCompileInputs.cache
+/Users/Ilias.Aidar/gb-developer/obj/Debug/net8.0/gb-developer.sourcelink.json
