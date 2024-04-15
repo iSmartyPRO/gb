@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("gb-developer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d961b30d11bc9d7d8599ca86df7bd8e79ffd6c5a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e2a691eec0f5bf0b487eb97f1763608cfbf4357f")]
 [assembly: System.Reflection.AssemblyProductAttribute("gb-developer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("gb-developer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
