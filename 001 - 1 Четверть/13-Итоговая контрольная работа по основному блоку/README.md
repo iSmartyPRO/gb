@@ -31,7 +31,7 @@ _____
 Результат можно найти в подпапке [solution](./solution/)
 
 **Скриншот вывода результата**
-![screenshot](./screenshots/task-result.jpeg)
+![screenshot](./screenshots/task-result.jpg)
 
 
 **Блок схема**
